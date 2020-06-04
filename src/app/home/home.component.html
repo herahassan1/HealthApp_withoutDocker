@@ -1,0 +1,32 @@
+<div class= "expans">
+<mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <div class="title-text">
+        Welcome to Health App!
+        </div>
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <p class="expansion-text">Find out your task for today</p>
+    <div class="mat-input">
+      <button mat-raised-button color= "primary" (click)="getTasks()">Today's Task</button>
+    </div>
+  </mat-expansion-panel>
+  </div>
+
+
+
+  <div class="task-mat-card-list" *ngIf="tasks">
+    <mat-list>
+        <mat-list-item>
+            <mat-card style="margin: 0 auto;">
+                <mat-card-title>{{tasks['title']}}</mat-card-title>
+                <mat-card-content>
+                  <ul>
+                    <li *ngFor="let ele of tasks['text'].split(',')">{{ele}}</li>
+                  </ul>
+                </mat-card-content>
+            </mat-card>
+        </mat-list-item>
+    </mat-list>
+</div>

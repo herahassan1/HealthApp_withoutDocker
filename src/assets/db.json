@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Drink water",
+      "text": "Drink atleast 8 glasses of water today,yytytytyt,gug"
+    },
+    {
+      "id": 2,
+      "title": "Medidate",
+      "text": "Practice Meditation for 15 minutes"
+    },
+    {
+      "title": "Exercise",
+      "text": "Work out for half an hour today",
+      "id": 3
+    },
+    {
+      "title": "Routine Checkup",
+      "text": "Call your doctor to know if you need a scheduled visit",
+      "id": 4
+    },
+    {
+      "title": "Mental Wellness",
+      "text": "Call your friend to talk about what's bothering you",
+      "id": 5
+    },
+    {
+      "title": "Eat fruit salad",
+      "text": "Combine the goodness of your favorites fruits and enjoy a bowl of fruit salad",
+      "id": 6
+    }
+  ]
+}
+

@@ -1,0 +1,15 @@
+.footer-text{
+    float: right;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    /* margin-top: 66vh;
+    padding: 2vh; */
+    position: fixed;
+    left: 0;
+     bottom: 0;
+     width: 100%;
+     /* text-align: center; */
+}

@@ -1,0 +1,16 @@
+.title-text {
+    text-align: center;
+    flex-direction: row;
+}
+
+.expansion-text {
+    text-align: center;
+}
+
+.expans {
+    margin : 10vh;
+    padding-right: 30vh;
+    padding-left: 30vh;
+    text-align: center;
+}
+
