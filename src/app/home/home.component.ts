@@ -9,13 +9,13 @@ import { TaskService } from '../task.service';
 })
 export class HomeComponent {
   errMessage: string;
-  public tasks: any;
+  public TaskResponse : any;
 
   constructor(private taskService : TaskService) { }
 
   getTasks(){
     this.taskService.apiCall().subscribe(
-      data => this.tasks = data,
+      data => this.TaskResponse  = data,
       err => { this.errMessage = 'Http failure response :: 404 Not Found'; }
     );
   }
