@@ -16,14 +16,14 @@
 
 
 
-  <div class="task-mat-card-list" *ngIf="tasks">
+  <div class="task-mat-card-list" *ngIf="TaskResponse">
     <mat-list>
         <mat-list-item>
             <mat-card style="margin: 0 auto;">
-                <mat-card-title>{{tasks['title']}}</mat-card-title>
+                <mat-card-title>{{TaskResponse['name']}}</mat-card-title>
                 <mat-card-content>
                   <ul>
-                    <li *ngFor="let ele of tasks['text'].split(',')">{{ele}}</li>
+                    <li *ngFor="let ele of TaskResponse['desc'].split(',')">{{ele}}</li>
                   </ul>
                 </mat-card-content>
             </mat-card>
