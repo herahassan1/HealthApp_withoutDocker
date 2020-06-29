@@ -9,6 +9,6 @@ export class TaskService {
   constructor( private http : HttpClient) { }
 
   apiCall(){
-    return this.http.get('https://jsonplaceholder.typicode.com/todos/1');
+    return this.http.post('http://localhost:8080/HealthAppPro/v1/getTaskOfTheDay','{}');
   }
 }
