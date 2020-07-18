@@ -9,6 +9,6 @@ export class TaskService {
   constructor( private http : HttpClient) { }
 
   apiCall(){
-    return this.http.post('http://localhost:8080/HealthAppPro/v1/getTaskOfTheDay','{}');
+    return this.http.post('http://localhost:8080/HealthApp-1.0/v1/getTaskOfTheDay','{}');
   }
 }
