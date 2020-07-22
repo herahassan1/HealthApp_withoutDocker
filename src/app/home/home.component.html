@@ -22,9 +22,10 @@
             <mat-card style="margin: 0 auto;">
                 <mat-card-title>{{TaskResponse['name']}}</mat-card-title>
                 <mat-card-content>
-                  <ul>
+                  <p class=card-content>{{TaskResponse['desc']}}</p>
+                  <!-- <ul>
                     <li *ngFor="let ele of TaskResponse['desc'].split(',')">{{ele}}</li>
-                  </ul>
+                  </ul> -->
                 </mat-card-content>
             </mat-card>
         </mat-list-item>
